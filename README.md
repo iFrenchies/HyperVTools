@@ -80,6 +80,6 @@ PowerShell 5.1 ou PowerShell 7+
 Module Hyper‑V installé
   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V
 
-📬 Contact
+## 📬 Contact
 Projet maintenu par Stéphane (iFrenchies)  
 GitHub : https://github.com/iFrenchies/HyperVTools (github.com in Bing)
