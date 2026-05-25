@@ -26,21 +26,21 @@ Il fournit une interface simple, cohérente et modulaire pour créer des VM, des
 ## 📦 Installation
 
 ### 1. Cloner le dépôt
-```powershell
+\`\`\`powershell
 git clone https://github.com/iFrenchies/HyperVTools.git
-```powershell
+\`\`\`
 ### 2. Importer le module
-```powershell
+\`\`\`powershell
   Import-Module "HyperVTools\HyperVTools.psd1"
-```powershell
+\`\`\`
 ### 3. Vérifier les commandes disponibles
-```powershell
+\`\`\`powershell
   Get-Command -Module HyperVTools
-```powershell
+\`\`\`
 ## 🚀 Exemple d’utilisation
 
 Créer une VM avec vSwitch NAT automatique
-```powershell
+\`\`\`powershell
   New-CustomVM `
       -Name "LAB-DC01" `
       -CPU 4 `
@@ -51,15 +51,15 @@ Créer une VM avec vSwitch NAT automatique
       -AutoVSwitchType NAT `
       -AutoVSwitchSubnet "192.168.200.0/24" `
       -ISOPath "D:\ISO\WindowsServer.iso"
-```powershell
+\`\`\`
 Créer un vSwitch interne
-```powershell
+\`\`\`powershell
 New-CustomVSwitch -Name "vSwitch-LAB" -Type Internal
-```powershell
+\`\`\`l
 Lister les vSwitch disponibles
-```powershell
+\`\`\`powershell
   Get-AvailableVSwitches
-```powershell
+\`\`\`
 ## 🧱 Architecture du module
 
 HyperVTools\
