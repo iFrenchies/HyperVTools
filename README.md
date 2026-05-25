@@ -79,9 +79,9 @@ HyperVTools\
     └── Write-Log.ps1
 ```
 ## 🛠️ Dépendances
-Windows 10/11 ou Windows Server avec Hyper‑V activé
-PowerShell 5.1 ou PowerShell 7+
-Module Hyper‑V installé
+Windows 10/11 ou Windows Server avec Hyper‑V activé  
+PowerShell 5.1 ou PowerShell 7+  
+Module Hyper‑V installé  
 ```powershell
   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V
 ```
