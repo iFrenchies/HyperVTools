@@ -61,7 +61,7 @@ Lister les vSwitch disponibles
   Get-AvailableVSwitches
 ```
 ## 🧱 Architecture du module
-
+```text
 HyperVTools\
 │
 ├── HyperVTools.psd1          # Manifest du module
@@ -77,13 +77,14 @@ HyperVTools\
     ├── Test-VMName.ps1
     ├── Test-VSwitchName.ps1
     └── Write-Log.ps1
-
+```
 ## 🛠️ Dépendances
 Windows 10/11 ou Windows Server avec Hyper‑V activé
 PowerShell 5.1 ou PowerShell 7+
 Module Hyper‑V installé
+```powershell
   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V
-
+```
 ## 📬 Contact
 Projet maintenu par Stéphane (iFrenchies)  
 GitHub : https://github.com/iFrenchies/HyperVTools (github.com in Bing)
